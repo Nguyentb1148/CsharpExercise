@@ -39,13 +39,8 @@ namespace BasicCSharp.Basic
                     else
                     {
                         int hieua = b - c;
-                        int hieub = a - c;
-                        int hieuc = a - b;
-
                         int tonga = b + c;
-                        int tongb = a + c;
-                        int tongc = a + b;
-                        if (hieua < a && a < tonga && hieub < b && b < tongb && hieuc < c && c < tongc)
+                        if (hieua < a && a < tonga )
                         {
                             if (a == b && b == c)
                             {

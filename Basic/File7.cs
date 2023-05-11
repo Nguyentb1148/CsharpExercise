@@ -16,9 +16,9 @@ namespace BasicCSharp.Basic
                 case 1:
                     Console.Write("Nhap b: ");
                     b = int.Parse(Console.ReadLine());
-                    float hieu = a / (float)b;
-                    double haiso = Math.Round(hieu, 2);
-                    Console.Write($"phep chia cua {a} va {b} la {haiso}");
+                    double hieu = a / (double)b;
+                    hieu = Math.Round(hieu, 2);
+                    Console.Write($"phep chia cua {a} va {b} la {hieu}");
                     break;
                 case 2:
                     Console.Write("Nhap b: ");

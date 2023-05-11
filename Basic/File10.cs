@@ -23,11 +23,11 @@ namespace BasicCSharp.Basic
                     Console.WriteLine("Khong co BCLN");
                     if (a == 0)
                     {
-                        Console.WriteLine($"BCNN cua{a} va {b} la" + b);
+                        Console.WriteLine($"UCNN cua{a} va {b} la" + b);
                     }
                     else
                     {
-                        Console.WriteLine($"BCNN cua{a} va {b} la" + a);
+                        Console.WriteLine($"UCNN cua{a} va {b} la" + a);
                     }
                 }
                 else

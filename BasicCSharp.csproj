@@ -39,6 +39,11 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Array1D\CopyArray.cs" />
+        <Compile Include="Array1D\FindSecondLargest.cs" />
+        <Compile Include="Array1D\InsertElements.cs" />
+        <Compile Include="Array1D\SoftArray.cs" />
+        <Compile Include="Array1D\SplitArray.cs" />
         <Compile Include="Basic\File1.cs" />
         <Compile Include="Basic\File11.cs" />
         <Compile Include="Basic\File12.cs" />
@@ -61,6 +66,17 @@
         <Compile Include="Basic\File8.cs" />
         <Compile Include="Basic\File9.cs" />
         <Compile Include="Basic\File10.cs" />
+        <Compile Include="ForWhileDoWhile\CheckPrimes.cs" />
+        <Compile Include="ForWhileDoWhile\1DrawDiamondAsterisk.cs" />
+        <Compile Include="ForWhileDoWhile\2DrawEquilateralTriangle.cs" />
+        <Compile Include="ForWhileDoWhile\3DrawIsoscelesTriangle.cs" />
+        <Compile Include="ForWhileDoWhile\4DrawIsoscelesTriangle2.cs" />
+        <Compile Include="ForWhileDoWhile\5DrawNumberTriangle.cs" />
+        <Compile Include="ForWhileDoWhile\6DrawNumberTriangle2.cs" />
+        <Compile Include="ForWhileDoWhile\7DrawNumberTriangle3.cs" />
+        <Compile Include="ForWhileDoWhile\8FindPerfectNumber.cs" />
+        <Compile Include="ForWhileDoWhile\9FindPrimes.cs" />
+        <Compile Include="ForWhileDoWhile\10PerfectNumberCheck.cs" />
         <Compile Include="OOP\File1.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />

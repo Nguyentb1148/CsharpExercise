@@ -11,7 +11,7 @@ namespace BasicCSharp.Basic
             i = int.Parse(Console.ReadLine());
             if (i % 2 == 0)
             {
-                Console.WriteLine("So ban nhap la so chan ");
+                Console.WriteLine($"So ban nhap la so chan {i}");
             }
             else
             {

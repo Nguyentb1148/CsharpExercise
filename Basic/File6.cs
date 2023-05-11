@@ -15,7 +15,7 @@ namespace BasicCSharp.Basic
                 if (nam < 0)
                 {
                     Console.WriteLine("Nhap lai nam");
-                    continue;
+                    break;
                 }
                 else
                 {

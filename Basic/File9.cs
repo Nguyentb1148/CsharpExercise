@@ -41,7 +41,7 @@ namespace BasicCSharp.Basic
                         Console.WriteLine("phuong trinh co nghiem kep.");
                         Console.WriteLine("X: " + (-b / 2 * a));
                     }
-                    else if (delta < 0)
+                    else
                     {
                         Console.WriteLine("phuong trinh vo nghiem.");
                     }

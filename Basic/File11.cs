@@ -7,31 +7,31 @@ namespace BasicCSharp.Basic
         public static void File11Main()
         {
             Console.Write("Nhap n: ");
-            int n = int.Parse(Console.ReadLine());
-            int a = 2;
-            while (a < n)
+            int num = int.Parse(Console.ReadLine());
+            int index = 2;
+            while (index < num)
             {
-                bool NguyenTo = true;
-                if (n < 2)
+                bool nguyenTo = true;
+                if (num < 2)
                 {
-                    NguyenTo = false;
+                    nguyenTo = false;
                 }
                 else
                 {
                     int i = 2;
-                    while (i <= Math.Sqrt(a))
+                    while (i <= Math.Sqrt(index))
                     {
-                        if (a % i == 0)
+                        if (index % i == 0)
                         {
-                            NguyenTo = false;
+                            nguyenTo = false;
                             break;
                         }
-                        i = i + 1;
+                        i += 1;
                     }
                 }
-                if (NguyenTo)
-                    Console.Write(a+" ");
-                a++;
+                if (nguyenTo)
+                    Console.Write(index+" ");
+                index++;
             }
         }
     }

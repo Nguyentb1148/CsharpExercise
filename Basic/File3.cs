@@ -24,6 +24,7 @@ namespace BasicCSharp.Basic
             isInRelationship = bool.Parse(Console.ReadLine());
             bmi=(float)weight / (height * height) * 10000;
             Console.WriteLine("Name: " + name);
+            Console.WriteLine("Email: " + email);
             Console.WriteLine("Age : " + age);
             Console.WriteLine("Weight (kg): " + weight );
             Console.WriteLine("height (cm) : " + height );

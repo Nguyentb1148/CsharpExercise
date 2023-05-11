@@ -6,9 +6,9 @@ namespace BasicCSharp.Basic
     {
         public static void File1Main()
         {
-            Console.Write("nhap so tu 1 den 7:");
-            string So = Console.ReadLine();
-            int socannhap = int.Parse(So);
+            Console.Write("Nhap so tu 1 den 7:");
+            string so = Console.ReadLine();
+            int socannhap = int.Parse(so);
             
             switch (socannhap)
             {
