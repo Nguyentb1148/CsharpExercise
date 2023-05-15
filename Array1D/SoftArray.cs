@@ -12,7 +12,7 @@ namespace BasicCSharp.Array1D
             int num = int.Parse(Console.ReadLine());
             for (int i = 0; i < num; i++)
             {
-                Console.Write($"Element {i}: ");
+                Console.Write($"Element {i+1}: ");
                 arr[i] = int.Parse(Console.ReadLine());
             }
 

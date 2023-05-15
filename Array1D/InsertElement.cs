@@ -2,7 +2,7 @@ using System;
 
 namespace BasicCSharp.Array1D
 {
-    public class InsertElements
+    public class InsertElement
     {
         public static void InsertElementMain()
         {

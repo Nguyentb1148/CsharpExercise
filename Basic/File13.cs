@@ -19,7 +19,7 @@ namespace BasicCSharp.Basic
             XuatHienNhieuNhat();
             Console.ReadLine();
         }
-        static void KiTuRiengLe()
+       static void KiTuRiengLe()
         {
             Console.Write("Chuoi sau khi tach: ");
             int i = 0;

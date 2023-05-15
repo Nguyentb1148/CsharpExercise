@@ -40,10 +40,16 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Array1D\CopyArray.cs" />
+        <Compile Include="Array1D\CountOccurrencesElements.cs" />
+        <Compile Include="Array1D\DeleteElement.cs" />
+        <Compile Include="Array1D\FindLargestSmallest.cs" />
         <Compile Include="Array1D\FindSecondLargest.cs" />
-        <Compile Include="Array1D\InsertElements.cs" />
+        <Compile Include="Array1D\FindSecondSmallest.cs" />
+        <Compile Include="Array1D\FindUniqueNumbers.cs" />
+        <Compile Include="Array1D\InsertElement.cs" />
         <Compile Include="Array1D\SoftArray.cs" />
         <Compile Include="Array1D\SplitArray.cs" />
+        <Compile Include="Array1D\SumElements.cs" />
         <Compile Include="Basic\File1.cs" />
         <Compile Include="Basic\File11.cs" />
         <Compile Include="Basic\File12.cs" />
