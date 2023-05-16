@@ -4,29 +4,34 @@ namespace BasicCSharp.ForWhileDoWhile
 {
     public class PerfectNumberCheck
     {
+        /*
+         * Enter two numbers a and b and then find and print the perfect numbers
+         * in that range. A perfect number is a number whose sum of its divisors
+         * is equal to itself (6 :1 2 3 1+2+3=6 => 6 is a perfect number)
+         */
         public static void PerfectNumberCheckMain()
         {
-            int sum = 0;
-            Console.Write(" Input number: ");
-            int num = int.Parse(Console.ReadLine());
-            Console.Write($"divisors of {num}: ");
-            for (int i=1; i <= num/2; i++)
+            int sum ;
+            Console.Write(" Input begin number: ");
+            int begin = int.Parse(Console.ReadLine());
+            Console.Write(" Input end number: ");
+            int end = int.Parse(Console.ReadLine());
+            Console.Write("The perfect numbers in this given: ");
+            for (int i = begin; i < end; i++)
             {
-                if (num%i==0)
+                sum = 0;
+                for (int j = 1; j < i; j++)//take numbers one by one from 1 to i
                 {
-                    sum += i;
+                    if (i%j==0)// if divisible by i, add to sum
+                    {
+                        sum += j;
+                    }
+                }
+
+                if (sum==i&& sum!=0)//0 is not a perfect number
+                {
                     Console.Write($"{i} ");
                 }
-            }
-            Console.WriteLine();
-            Console.WriteLine("Sum of the divisors of the number {0} is: {1} ",num,sum);
-            if (num==sum)
-            {
-                Console.WriteLine ($"{num} is perfect number");
-            }
-            else
-            {
-                Console.WriteLine ($"{num} isn't perfect number");
             }
         }
     }

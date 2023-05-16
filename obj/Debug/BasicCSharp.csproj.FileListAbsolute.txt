@@ -4,3 +4,9 @@
 /Users/tranbaonguyen/Desktop/C#/BasicCSharp/obj/Debug/BasicCSharp.csproj.CoreCompileInputs.cache
 /Users/tranbaonguyen/Desktop/C#/BasicCSharp/obj/Debug/BasicCSharp.exe
 /Users/tranbaonguyen/Desktop/C#/BasicCSharp/obj/Debug/BasicCSharp.pdb
+/Users/nguyentran/CsharpExercise/bin/Debug/BasicCSharp.exe
+/Users/nguyentran/CsharpExercise/bin/Debug/BasicCSharp.pdb
+/Users/nguyentran/CsharpExercise/obj/Debug/BasicCSharp.csproj.AssemblyReference.cache
+/Users/nguyentran/CsharpExercise/obj/Debug/BasicCSharp.csproj.CoreCompileInputs.cache
+/Users/nguyentran/CsharpExercise/obj/Debug/BasicCSharp.exe
+/Users/nguyentran/CsharpExercise/obj/Debug/BasicCSharp.pdb
